@@ -40,11 +40,11 @@ https://nl.karhu.com/
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/home.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/home.jpg" width="375px" alt="Dit is de home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Over Karhu
-<img src="images/over.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/over.jpg" width="375px" alt="Hier lees je meer over het merk">
  
 </details>
 
