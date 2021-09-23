@@ -94,8 +94,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- punt 1: Tips voor hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP
+- punt 2: Kopjes boven de afbeeldingen
 - nog een punt
 - ...
 
@@ -117,11 +117,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Joppe.         | Maeren             | Timo                     | Leo                                |
+| ---            | ---                | ---                      | ---                                |
+| Werken met     | nette html.        | Werken met media query's | Selectoren, wanner je met meerdere |
+|-grid/ flexbox. | CSS positioneren.  | voor responsiveness      | paginas's werkt +                  |
+| ...            | ...                | ...                      | media query's.                     |
 
 
 ### Verslag van meeting
