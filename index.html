@@ -13,15 +13,19 @@
 </head>
 
 <body>
-	<script src="scripts/script.js"></script>
 
 
-	
+
+
 	<header>
-		<a href="#"><img src="images/logo_zwart.svg" alt="logo"></a>
-	
+		<a href="index.html"><img src="images/logo_zwart.svg" alt="logo"></a>
+
 		<nav>
-			<button aria-hidden="true"></button>
+			<button aria-hidden="true">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 			<ul>
 				<li><a href="#">Lifestyle</a></li>
 				<li><a href="#">Hardlopen</a></li>
@@ -30,75 +34,186 @@
 			</ul>
 		</nav>
 
-		<a href="#"><img src="images/mand.svg" alt="mand"></a>
-		
+		<a href="#"><img src="images/mand.svg" alt="mand"><span>0</span></a>
+
 	</header>
 
 
 	<main>
 
-		<img src="images/HP_BANNER_MOB_360x.jpg" alt="banner">
-		<h1>Finland's legendary sports brand</h1>
-	
-		<a href="#">Shop lifestyle</a>
-		<a href="#">Shop Running</a>
-		
+		<section>
+
+			<img src="images/HP_BANNER_MOB_360x.jpg" alt="banner">
+			<h1>Finland's legendary sports brand</h1>
+
+			<div class="linken">
+				<a href="#">Shop lifestyle</a>
+				<a href="#">Shop Running</a>
+			</div>
+
+		</section>
+
 		<section>
 
 			<a href="#">
 				<h2>Lifestyle</h2>
-				<img src="images/NHzXMUwQ_1500x.jpg" alt="Lifestyle">
+				<img src="images/Carrusel_hp_1500x.jpg" alt="Lifestyle">
+				<!-- <button>Shop Nu</button> -->
 			</a>
 
 			<a href="#">
 				<h2>Hardlopen mannen</h2>
 				<img src="images/Untitled-1_257a50f9-af45-445f-b1b1-c14f97727075_1500x.jpg" alt="hardlopen_mannen">
+
 			</a>
 
 			<a href="#">
 				<h2>Hardlopen vrouwen</h2>
 				<img src="images/men_1500x.jpg" alt="hardlopen_vrouwen">
+
+			</a>
+			<a href="#">
+				<h2>Kids</h2>
+				<img src="images/kids_1500x.jpg" alt="hardlopen_vrouwen">
+
 			</a>
 
 		</section>
 
+
 		<section>
 
-			<h4>€100,00</h4>
-			<p>Trampas</p>
-			<p>Blue / white</p>
-			<a href="#"><img src="images/Photo1_cd19f6b6-7c6a-4d24-823f-56e5db30b4c7_1500x.jpg" alt="schoenen"></a>
+
+			<div>
+				<a href="#"><img src="images/Photo1_cd19f6b6-7c6a-4d24-823f-56e5db30b4c7_1500x.jpg" alt="schoenen"></a>
+				<h4>Trampas</h4>
+				<p>Blue / white</p>
+				<p>€100,00</p>
+				<button class="shop">Toevoegen</button>
+
+			</div>
 
 
-			<h4>€100,00</h4>
-			<p>Trampas</p>
-			<p>Blue / white</p>
-			<a href="#"><img src="images/Photo_1_0ec0d967-6cf8-479a-9e30-f67432bcf543_1500x.jpg" alt="schoenen"></a>
+			<div>
+				<a href="#"><img src="images/Photo_1_0ec0d967-6cf8-479a-9e30-f67432bcf543_1500x.jpg" alt="schoenen"></a>
+				<h4>Trampas</h4>
+				<p>Blue / white</p>
+				<p>€100,00</p>
+				<button class="shop">Toevoegen</button>
+
+			</div>
 
 
-			<h4>€100,00</h4>
-			<p>Trampas</p>
-			<p>Blue / white</p>
-			<a href="#"><img src="images/Photo_1_24147e8a-ce8d-43f8-a9c8-4cf912960fe0_1500x.jpg" alt="schoenen"></a>
+			<div>
+				<a href="#"><img src="images/Photo_1_24147e8a-ce8d-43f8-a9c8-4cf912960fe0_1500x.jpg" alt="schoenen"></a>
+				<h4>Trampas</h4>
+				<p>Blue / white</p>
+				<p>€100,00</p>
+				<button class="shop">Toevoegen</button>
+
+			</div>
 
 
-			<h4>€100,00</h4>
-			<p>Trampas</p>
-			<p>Blue / white</p>
-			<a href="#"><img src="images/Photo_1_aed970d0-f0c8-4ebc-a3fc-3d5c69e4c1ac_1500x.jpg" alt="schoenen"></a>
+			<div>
+				<a href="#"><img src="images/Photo_1_aed970d0-f0c8-4ebc-a3fc-3d5c69e4c1ac_1500x.jpg" alt="schoenen"></a>
+				<h4>Trampas</h4>
+				<p>Blue / white</p>
+				<p>€100,00</p>
 
+
+			</div>
 
 
 		</section>
 
+
+		<section>
+			<div id='fotobladeren'>
+				<button id='terug'>&lt;</button>
+				<div>
+					<!-- hier worden de beschikbare foto's dynamische geladen-->
+					<img src="images/Legacy_HP_Banner_1500x.jpg" alt="vakantiefoto" id='foto'>
+					<p><span id='huidigeFotoNr'>huidige foto</span>/<span id='laatsteFotoNr'>aantal foto's</span></p>
+					<ul id='thumbnails'></ul>
+				</div>
+				<button id='vooruit'>&gt;</button>
+			</div>
+		</section>
+
+
+
+		<section>
+
+			<img src="images/sunrun-magazine_1500x.webp" alt="schoenen">
+			<figcaption>Karhu</figcaption>
+			<a href="#"><button>Lees meer blogs</button></a>
+
+
+
+
+			<a href="#">
+				<h3>Spike</h3>
+				<img src="images/blog_preview_1500x.webp" alt="Trulli">
+				<time>18th September</time>
+				<p>Running</p>
+
+			</a>
+
+
+			<a href="#">
+				<h3>Finland: Land of a thousand tracks</h3>
+				<img src="images/IMG_8920_1500x.webp" alt="Trulli">
+				<time>18th September</time>
+				<p>Running</p>
+			</a>
+
+
+			<a href="#">
+				<h3>Sun Run</h3>
+				<img src="images/Sun_Run_running_camp_1500x.webp" alt="Trulli">
+				<time>18th September</time>
+
+				<p>Running</p>
+			</a>
+
+			<a href="#">
+				<h3>New Karhu IKONI</h3>
+				<img src="images/W_IKONI_green_export_1500x.webp" alt="Trulli">
+				<time>18th September</time>
+				<p>Running</p>
+			</a>
+
+			<a href="#">Lees meer blogs</a>
+
+
+		</section>
+
+
 	</main>
+
+
 
 	<footer>
 
 
+		<h2>Keep up to date.</h2>
+		<p>Sign up to receive the latest news and offers</p>
+
+
+		<form>
+
+			<input type="text" placeholder="Voornaam">
+			<input type="text" placeholder="Achternaam">
+			<input type="text" placeholder="enter email aderess">
+
+			<input type="submit" value="Submit">
+
+			<!-- <button type="submit"></button> -->
+
+		</form>
 	</footer>
 
-
+	<script src="scripts/script.js"></script>
 </body>
 
 </html>
