@@ -19,7 +19,7 @@
 @media (prefers-color-scheme:dark) {
   :root {
     /* dark theme */
-
+    --shadow-color:#2F4F4F33;
   }
 }
 
@@ -830,9 +830,7 @@ font-family: var(--GT-America_regulair)
 }
 
 
-section:nth-of-type(5) {
-  display: ;
-}
+
 
 
 
@@ -1009,8 +1007,6 @@ form input:nth-of-type(1){
 }
 
 
-form input:last-of-type{
  
-}
 
 }
