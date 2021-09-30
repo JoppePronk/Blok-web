@@ -112,3 +112,9 @@ function addToCart(){
 }
 
 // Bron:
+
+
+
+
+
+// Banner verandert
