@@ -27,6 +27,7 @@
 				<span></span>
 			</button>
 			<ul>
+				<a href="#">zoeken</a>
 				<li><a href="#">Lifestyle</a></li>
 				<li><a href="#">Hardlopen</a></li>
 				<li><a href="#">Blog</a></li>
@@ -44,6 +45,15 @@
 		<section>
 
 			<img src="images/HP_BANNER_MOB_360x.jpg" alt="banner">
+			<video autoplay muted loop src="images/indebos.mp4"></video>
+
+
+
+
+
+
+
+
 			<h1>Finland's legendary sports brand</h1>
 
 			<div class="linken">
@@ -53,36 +63,49 @@
 
 		</section>
 
+
 		<section>
 
-			<a href="#">
-				<h2>Lifestyle</h2>
-				<img src="images/Carrusel_hp_1500x.jpg" alt="Lifestyle">
-				<!-- <button>Shop Nu</button> -->
-			</a>
+			<ul>
+				<li>
+					<h2>Lifestyle</h2>
+					<img src="images/Carrusel_hp_1500x.jpg" alt="Lifestyle">
+					<a href="#">Schop Nu</a>
 
-			<a href="#">
-				<h2>Hardlopen mannen</h2>
-				<img src="images/Untitled-1_257a50f9-af45-445f-b1b1-c14f97727075_1500x.jpg" alt="hardlopen_mannen">
 
-			</a>
+				</li>
+				<li>
+					<h2>Hardlopen mannen</h2>
+					<img src="images/Untitled-1_257a50f9-af45-445f-b1b1-c14f97727075_1500x.jpg" alt="hardlopen_mannen">
+					<a href="#">Schop Nu</a>
 
-			<a href="#">
-				<h2>Hardlopen vrouwen</h2>
-				<img src="images/men_1500x.jpg" alt="hardlopen_vrouwen">
 
-			</a>
-			<a href="#">
-				<h2>Kids</h2>
-				<img src="images/kids_1500x.jpg" alt="hardlopen_vrouwen">
+				</li>
 
-			</a>
+				<li>
+					<h2>Hardlopen vrouwen</h2>
+					<img src="images/men_1500x.jpg" alt="hardlopen_vrouwen">
+					<a href="#">Schop Nu</a>
+
+				</li>
+				<li>
+					<h2>Kids</h2>
+					<img src="images/kids_1500x.jpg" alt="hardlopen_vrouwen">
+					<a href="#">Schop Nu</a>
+
+				</li>
+			</ul>
 
 		</section>
 
 
+
+
 		<section>
 
+			<!-- <a href=""></a><p>Lifestyle</p> 
+			<a href=""></a><p>Hardlopen Damens</p>
+			<a href=""></a><p>Hardlopen heren</p>-->
 
 			<div>
 				<a href="#"><img src="images/Photo1_cd19f6b6-7c6a-4d24-823f-56e5db30b4c7_1500x.jpg" alt="schoenen"></a>
@@ -129,28 +152,27 @@
 
 		<section>
 			<div id='fotobladeren'>
-				<button id='terug'>&lt;</button>
+				<button id='terug'></button>
 				<div>
 					<!-- hier worden de beschikbare foto's dynamische geladen-->
 					<img src="images/Legacy_HP_Banner_1500x.jpg" alt="vakantiefoto" id='foto'>
 					<p><span id='huidigeFotoNr'>huidige foto</span>/<span id='laatsteFotoNr'>aantal foto's</span></p>
 					<ul id='thumbnails'></ul>
 				</div>
-				<button id='vooruit'>&gt;</button>
+				<button id='vooruit'></button>
 			</div>
 		</section>
 
 
 
-		<section>
-
-			<img src="images/sunrun-magazine_1500x.webp" alt="schoenen">
+		
+			<div class="datum"><img src="images/sunrun-magazine_1500x.webp" alt="schoenen">
 			<figcaption>Karhu</figcaption>
-			<a href="#"><button>Lees meer blogs</button></a>
+			<p>laaste <br> verhalen</p>
+			<a href="#">Lees meer blogs</a>
+		    </div>
 
-
-
-
+		<section>
 			<a href="#">
 				<h3>Spike</h3>
 				<img src="images/blog_preview_1500x.webp" alt="Trulli">
@@ -185,7 +207,6 @@
 
 			<a href="#">Lees meer blogs</a>
 
-
 		</section>
 
 
@@ -196,11 +217,14 @@
 	<footer>
 
 
-		<h2>Keep up to date.</h2>
-		<p>Sign up to receive the latest news and offers</p>
+
 
 
 		<form>
+
+			<h2>Keep up to date.</h2>
+			<p>Sign up to receive the latest news and offers</p>
+
 
 			<input type="text" placeholder="Voornaam">
 			<input type="text" placeholder="Achternaam">
@@ -208,9 +232,39 @@
 
 			<input type="submit" value="Submit">
 
-			<!-- <button type="submit"></button> -->
+			<!-- <button type="submit"></button>  -->
 
 		</form>
+
+
+
+
+		<ul>
+			<li>Help</li>
+			<li><a href="#">Account</a></li>
+			<li><a href="#">Winkels</a></li>
+			<li><a href="#">Bezorging</a></li>
+		</ul>
+
+
+
+		<ul>
+			<li>About</li>
+			<li><a href="#">Over Karhu</a></li>
+			<li><a href="#">BBlog</a></li>
+			<li><a href="#">Social</a></li>
+
+		</ul>
+
+
+
+
+		<ul>
+			<li><img src="images/icon.instagram.svg" alt="instargram"></li>
+			<li><img src="images/icon.facebook.svg" alt="instargram"></li>
+		</ul>
+
+
 	</footer>
 
 	<script src="scripts/script.js"></script>
