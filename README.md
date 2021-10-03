@@ -78,7 +78,7 @@ Over Karhu
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Alle content en afbeeldingen zijn zo goed als erin gezet - heb nog moeite met hamburgere menu
 
 
 ### Agenda voor meeting
@@ -96,8 +96,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - punt 1: Tips voor hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP
 - punt 2: Kopjes boven de afbeeldingen
-- nog een punt
-- ...
+
 
 </details>
 
@@ -107,11 +106,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb al een groot deel responsive gemaakt!
 
 
 ### Agenda voor meeting
@@ -127,10 +126,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Tips voor een responsive menu
+- Welke selectoren ik kan gebruiken, alleen div, class voor styling
 
 </details>
 
@@ -145,30 +142,25 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+ 
+1) Muis en toetsenboard:
+ 
+ - Met tab begint het bij een verkeerde button <--oplossing---> In de a een # plaatsen.
+ - In menu is de active state niet zichtbaar <--oplossing---> :active in css.
+ - Nog niet overal een hover state bij buttons <--oplossing---> Meer hover states implementeren.
+ 
+2) Sreen readers:
+ 
+ - Nog niet alle afbeeldinfgen hadden een naam gekregen <--oplossing---> bij img > alt specfieker zijn.
+ 
+ 
+3) Diverse beperkingen
+ 
+ - Buttons zijn redelijk klein  <--oplossing---> Buttons en de ruimte om de button vergroten.
+ - Er zijn sommige tekstenslecht te lezen bijv. in de header  <--oplossing---> groter contrast in de kleuren gebruiken.
+ - 
+ 
+ 
 </details>
 
 
@@ -181,26 +173,25 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb een beetje moeite met de footer maken, ik wil grid gebruiken, maar ik krijg heel veel witruimte tussen m'n teksten....
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+|Joppe           | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Grid.          | en dit             | en ik dit    | en dan ik dat    |
+|                | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik kan het best eerst een tekening maken van het er met grid uit moet te komen zien, en daarna met grid aan de slag gaan
+- Ik moet voor de verschillende fotns ook eigen font familys aanmaken... deze hoeven ook niet perse in de :root.
+ 
 
 </details>
 
