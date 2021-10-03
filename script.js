@@ -84,37 +84,55 @@ achteruitButton.addEventListener('click' , bladerAchteruit );
 
 
 
-// shopping cart
+
+/****************************/
+/* CODE VOOR DE KOOPKNOPPEN */
+/****************************/
 
 
-var DeEersteButton = document.querySelector ("section:nth-of-type(3) div button.shop");
-var DeTweedeButton = document.querySelector ("section:nth-of-type(3) div button.shop");
-var DeDerdeButton = document.querySelector ("section:nth-of-type(3) div button.shop");
+/* alle koopknoppen opzoeken in de HTML */
+/* omdat er meer buttons geselecteerd moeten worden, wordt querySelectorAll gebruikt (en niet querySelector) */
+/* het gevonden lijstje met koopknoppen (een array) in de variabele 'addToCartButtons' opslaan */
+
+var addToCartButtons = document.querySelectorAll("button.shop");
 
 
- 
-DeEersteButton.addEventListener("click", addToCart);
-DeTweedeButton.addEventListener("click", addToCart);
-DeDerdeButton.addEventListener("click", addToCart);
-
-function addToCart(){
- var deShoppingCart = document.querySelector("header a:last-of-type span");
+/* elke koopknop laten luisteren naar een klik */
+/* na een klik de functie 'updateShoppingCart' uitvoeren */
+for (i = 0; i < addToCartButtons.length; i++) {
+	addToCartButtons[i].addEventListener("click", updateShoppingCart);
+  }
   
-  var deHuidigeWaarde = parseInt(deShoppingCart.textContent);
-  
-  
-  
-  var deNieuweWaarde = deHuidigeWaarde +1;
-  
-  console.log(deNieuweWaarde);
-  
-  deShoppingCart.textContent = deNieuweWaarde;
-}
+  /* als er op een koopknop is gedrukt - het winkelwagentje updaten */
+  function updateShoppingCart() {
+	/* het getal (de span) in de winkelwagen-link in de nav opzoeken */
+	/* die span in de variabele 'shoppingCartAmount' opslaan */
+	let shoppingCart = document.querySelector(".shopping-cart");
+	let shoppingCartAmount = shoppingCart.querySelector("span");
+	
+	/* het huidige aantal schoenen in  de shopping cart bepalen */
+	let currentAmount = shoppingCartAmount.innerHTML;
+	/* dat is een string - dus even omzetten naar een getal */
+	currentAmount = parseInt(currentAmount);
+	
+	/* het nieuwe aantal schoenen berekenen */
+	let newAmount = currentAmount + 1;
+	
+	/* tenslotte het nieuwe aantal schoenen in de HTML zetten */
+	shoppingCartAmount.innerHTML = newAmount;
+	
+	/* de class updated wordt toegevoegd aan de winkelwagen-link */
+	/* met CSS wordt dan een animatie geactiveerd */
+	shoppingCart.classList.add("updated");
+	
+	/* om de animatie bij een volgende klik op een koopknop weer af te spelen moet de class weer verwijderd worden als de animatie klaar is */
+	/* dat kun je doen met het animationend event */
+	/* dat event gaat af als de animatie klaar is met afspelen */
+	/* je kunt de shopping cart-link laten luisteren naar het einde van de animatie */
+	shoppingCart.addEventListener("animationend", function(event){
+	  /* dan kun je in de functie de class updated weer verwijderen */
+	  shoppingCart.classList.remove("updated");
+	}, { once: true });
+  }
 
-// Bron:
-
-
-
-
-
-// Banner verandert
+  /* Bron: Sanne t'hooft - https://codepen.io/shooft/pen/oNwGwgN */
