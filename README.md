@@ -58,13 +58,13 @@ Over Karhu
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdown1.jpg" width="375px" alt="breakdown van de hele pagina">
+
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -158,7 +158,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
  
  - Buttons zijn redelijk klein  <--oplossing---> Buttons en de ruimte om de button vergroten.
  - Er zijn sommige tekstenslecht te lezen bijv. in de header  <--oplossing---> groter contrast in de kleuren gebruiken.
- - 
+ 
  
  
 </details>
@@ -179,10 +179,10 @@ Ik heb een beetje moeite met de footer maken, ik wil grid gebruiken, maar ik kri
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-|Joppe           | student 2          | student 3    | student 4        |
+|Joppe           | Timo.              | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| Grid.          | en dit             | en ik dit    | en dan ik dat    |
-|                | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Grid +         | Media query's      | en ik dit    | en dan ik dat    |
+| font-face      |                    | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
@@ -205,12 +205,36 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb voor het eerst gewerkt met grids, dat ging in het begin moeizaam, maar na een tijdje begon het steeds beter te lukken.
+Ik voorla ondervinden dan grids heel flexiebel zijn. 
+ 
+<img src="images/Schermafbeelding 2021-10-04 om 16.01.46.png" width="375px" alt="Meer Blogs onderdeel>
+ 
+<img src="images/Schermafbeelding 2021-10-04 om 16.02.27.png" width="375px" alt="Code Meer Blogs onderdeel>
+ 
+ 
+Waar ik nog wel een beetje moeite mee had was het menu na te maken van de live website, dit is me ook deels niet gelukt (ook door de deadline) 
 
+  
+<img src="images/Schermafbeelding 2021-10-04 om 16.02.40.png" width="375px" alt="Het menu">
+ 
+<img src="images/Schermafbeelding 2021-10-04 om 16.02.59.png" width="375px" alt="Code Het menu">
+ 
+ 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
 
+
+<img src="images/Screenshot 2021-10-04 at 15-55-52 Karhu.png" width="375px" alt="Dit is de home pagina Mobile">
+
+<img src="images/Screenshot 2021-10-04 at 15-48-26 Karhu.png" width="375px" alt="Hele pagina Home">
+ 
+<img src="images/Screenshot 2021-10-04 at 15-48-45 Karhu.png" width="375px" alt="Dit is de Over ons pagina">
+
+<img src="images/Screenshot 2021-10-04 at 15-52-03 Karhu.png" width="375px" alt="Dit is de Over ons pagina Mobile">
+ 
+ 
 </details>
 
 
@@ -224,8 +248,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Bijna alle oefeningen van codepen: https://codepen.io/your-work/
+2. https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. https://css-tricks.com/snippets/css/complete-guide-grid/
 
 </details>
