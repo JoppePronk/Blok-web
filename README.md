@@ -208,9 +208,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Ik heb voor het eerst gewerkt met grids, dat ging in het begin moeizaam, maar na een tijdje begon het steeds beter te lukken.
 Ik voorla ondervinden dan grids heel flexiebel zijn. 
  
-<img src="images/Schermafbeelding 2021-10-04 om 16.01.46.png" width="375px" alt="Meer Blog>
+<img src="images/MeerBlogs.png" width="375px" alt="Meer Blogs onderdeel">
  
-<img src="images/Schermafbeelding 2021-10-04 om 16.02.27.png" width="375px" alt="Code Meer Blogs>
+<img src="images/MeerBlogCode.png" width="375px" alt="Code Meer Blogs onderdeel">
  
  
 Waar ik nog wel een beetje moeite mee had was het menu na te maken van de live website, dit is me ook deels niet gelukt (ook door de deadline) 
