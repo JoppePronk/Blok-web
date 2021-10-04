@@ -12,7 +12,16 @@ function toggleMenu(event) {
 
 
 
-// Bron:
+// Bron: Sanne 't Hooft
+
+
+
+
+
+
+
+
+
 
 
 // fotoalbum
@@ -79,7 +88,7 @@ vooruitButton.addEventListener('click' , bladerVooruit );
 achteruitButton.addEventListener('click' , bladerAchteruit );
 
 
-// Bron:
+// Bron: Fons van Kesteren : 
 
 
 
@@ -135,4 +144,4 @@ for (i = 0; i < addToCartButtons.length; i++) {
 	}, { once: true });
   }
 
-  /* Bron: Sanne t'hooft - https://codepen.io/shooft/pen/oNwGwgN */
+  // Bron: Sanne 't Hooft - https://codepen.io/shooft/pen/oNwGwgN 
